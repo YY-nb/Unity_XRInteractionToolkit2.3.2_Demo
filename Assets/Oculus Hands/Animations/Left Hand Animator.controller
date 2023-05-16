@@ -49,7 +49,7 @@ BlendTree:
   m_BlendType: 3
 --- !u!1107 &-2276301845227396631
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -105,7 +105,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &5869694157650388578
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}

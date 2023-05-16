@@ -659,6 +659,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Thumb Value",
+                    "type": "Value",
+                    "id": "46375157-1b8c-4333-ab3e-234ec9c1ed4b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -791,6 +800,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b0a16c7c-22eb-459d-a746-86560d60bfee",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumb Value",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1355,6 +1375,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Thumb Value",
+                    "type": "Value",
+                    "id": "ffa8438a-b5aa-4c4f-9500-8acafcf31cc6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1487,6 +1516,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b375c2f-aa3c-4143-93db-3d48a4c24601",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumb Value",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
