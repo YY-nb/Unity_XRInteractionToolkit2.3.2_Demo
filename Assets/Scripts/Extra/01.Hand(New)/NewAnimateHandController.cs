@@ -17,14 +17,6 @@ public class NewAnimateHandController : MonoBehaviour
     private string gripName = "Grip";
     private string thumbName = "Thumb";
 
-    private enum HandAnimationLayer
-    {
-        grip,
-        trigger,
-        thumb,
-    }
-
-
     void Start()
     {
         pinchAction = triggerActionProperty.action;
@@ -40,13 +32,9 @@ public class NewAnimateHandController : MonoBehaviour
         animator.SetFloat(gripName, gripValue);
 
         float triggerValue = pinchAction.ReadValue<float>();
-       // animator.SetLayerWeight((int)HandAnimationLayer.trigger, triggerValue);
         animator.SetFloat(triggerName, triggerValue);
-
-
-       
+      
         float thumbValue = thumbAction.ReadValue<float>();
-       // animator.SetLayerWeight((int)HandAnimationLayer.thumb, thumbValue);
         animator.SetFloat(thumbName, thumbValue);
     }
 }
