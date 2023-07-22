@@ -4179,7 +4179,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -8222252007134549311, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RotateAnchorAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Rotate Anchor
       m_Type: 0
@@ -4203,7 +4203,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -440298646266941818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_TranslateAnchorAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Translate Anchor
       m_Type: 0
@@ -4233,7 +4233,7 @@ MonoBehaviour:
   translateAnchorReference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   teleportActivateReference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   moveReference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  turnReference: {fileID: 0}
+  turnReference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &1528699523
 MonoBehaviour:
   m_ObjectHideFlags: 0
